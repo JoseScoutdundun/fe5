@@ -1,0 +1,99 @@
+html,
+body {
+    font-family: "Noto Sans HK" Arial, Helvetica, sans-serif;// font is carry to child; 
+line-height: 2;
+
+}
+*{
+    /* border: 3px solid red ;
+} */
+
+button {
+    width: 150px;
+    font-size: 16px;
+    padding:7px,0 ;
+    margin: 15px,0;
+    color: white;
+}
+
+
+.sporty {
+    color: red;
+}
+.casual {
+    color: blue;
+}
+.formal {
+    color: brown;
+}
+
+main {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: hsl(191, 25%, 87%);
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-align: left;
+}
+ 
+    .card {
+        padding-left: 18px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        /* margin: 20px 10px; */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        /* background-color: #fff ; */
+        /* opacity: 0.9; */
+    }
+
+    p {
+        color: purple;
+    }
+
+    p::first-letter {
+        text-transform: uppercase;
+    }
+    
+    .sporty + p {
+        color: red ;
+        /* font-size: 20px; */
+    }
+    .card.card-sporty{
+    background:#fff url(./sporty.png)no-repeat center right/200px;
+    }
+    .card.card-casual{
+    background:#fff url(./casual.png)no-repeat center right/200px;
+    }
+    .card.card-formal{
+    background:#fff url(./formal.png)no-repeat center right/200px;
+     margin-bottom:0;
+    }
+    button {
+        width: 150px;
+        font-size: 16px;
+        padding: 5px 0;
+        margin: 15px 0;
+    }
+    .card-sporty button {
+        background-color: red;
+    }
+    .card-casual button {
+        background-color: blue;
+    }
+    .card-formal button {
+        background-color: brown;
+    }
+    
+    button:hover {
+        opacity:0.5; 
+        /* button change color */
+        cursor: pointer;
+    }

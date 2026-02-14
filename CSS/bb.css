@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f1f1f1; 
+}
+.container {
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: 150px auto;
+}
+.card {
+    background: #373f4d;
+    color: #fff;
+    border-radius: 5px;
+    padding: 60px 40px;
+    box-shadow: 2px 2pxx 23px 8px rgb(196, 193, 193);
+    text-align: center;
+}
+.card h1 {
+    font-size: 28px;
+    font-weight: 380;
+}
+.card p{
+    margin: 13px;
+    font-weight: 100;
+}
+.card .form-group {
+   /* border: 1px solid red;*/
+    margin: 23px 0px 15px;
+   padding: 20px 0px;
+}
+.card input {
+    padding: 13px 0px;
+    width: 300px;
+}
+.card input[type="text"] {
+    font-size: 18px;
+}
+.card button {
+    width: 300px;
+    padding: 14px;
+    background: linear-gradient(to right, rgb(238,155,11),rgba(238,113,11));
+}
+.card button:hover {
+    background: linear-gradient(to right, rgb(238, 113, 11),rgb(238,155,11));
+    cursor: pointer;
+
+}
